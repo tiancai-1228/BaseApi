@@ -1,4 +1,5 @@
 type User = { name: string };
+
 type CreateParams = {
     name: string;
 };

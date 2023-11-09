@@ -21,7 +21,6 @@ export class UserController {
         @Ctx() ctx: Koa.Context,
         @Body() params: CreateParams,
     ): Promise<User> {
-        console.log('params : ', params);
         return { name: 'z' };
     }
 }
